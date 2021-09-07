@@ -1,5 +1,6 @@
 :root {
   /* color palette */
+<<<<<<< HEAD
    --dark-color: #1a2139;
    --neutral-dark-color: #333e5b;
    --neutral-color: #798190;
@@ -18,3 +19,51 @@
    width: 50%;
    float: right;
 }
+=======
+  --dark-color: #1a2139;
+  --neutral-dark-color: #333e5b;
+  --neutral-color: #798190;
+  --neutral-light-color: #9d9683;
+  --light-color: #821122;
+}
+
+html, body {
+  /*background-color: #798190;*/
+  background-image: linear-gradient(to top, #d9afd9 0%, #97d9e1 100%);
+  margin: 0 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+}
+
+.nav-bar {
+  width: 100%;
+  height: 10%;
+  position: relative;
+  /*background-color: red;*/
+}
+
+
+a.nav-bar {
+  float: left;
+  text-align: center;
+  /*padding: 10px;*/
+
+}
+
+img#corner-logo {
+  max-height: 100%;
+}
+
+#personal-home {
+  margin: 0 0 0 1%;
+  padding: 0.75%;
+  position: absolute;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  max-height: 100%;
+  border: none;
+}
+
+>>>>>>> main
