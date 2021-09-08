@@ -32,6 +32,9 @@ a.nav-bar {
 
 img#corner-logo {
   max-height: 100%;
+  width: 400px;
+  height: 400px;
+
 }
 
 #personal-home {
