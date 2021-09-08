@@ -1,3 +1,5 @@
+/* universal styles */
+
 :root {
   /* color palette */
    --dark-color: #1a2139;
@@ -7,18 +9,44 @@
    --light-color: #821122;
 }
 
+*, *::before, *::after {
+   box-sizing: border-box;
+}
+
+a {
+   color: var(--light-color);
+   text-decoration: none;
+}
+
+h1, h2, h3, h4, h5, h6 {
+   color: var(--dark-color);
+}
+
+p {
+   color: var(--neutral-dark-color);
+}
+
+html, body {
+   /*background-color: #798190;*/
+   background-color: var(--neutral-color);
+   margin: 0 0;
+   padding: 0;
+   height: 100%;
+   width: 100%;
+}
+
+/* universal styles end */
+
 /* connor resume css */
 
 #resume {
-   background-color: var(--light-color);
-   height: 30%;
+   border: solid 5px var(--dark-color);
+   display: block;
+   border-bottom: none;
+   height: 40%;
    width: 40%;
-   display: flex;
-   flex-direction: row;
-   flex-flow: row;
-   align-items: center;
-   text-align: center;
    position: absolute;
+   text-align: center;
 }
 
 #resume div {
@@ -26,20 +54,20 @@
    height: 100%;
 }
 
-
 #resume img{
-   padding: 0;
    display: block;
    position: absolute;
    height: 100%;
-   
+   right: 0;
+   top: 0;
 }
 
 #experience {
+   border: solid 5px var(--dark-color);
+   border-left: none;
    width: 60%;
    float: right;
    display: block;
-   background-color: var(--dark-color);
 }
 
 #experience p {
@@ -62,16 +90,19 @@
    margin: 0;
 }
 
+#skills {
+   border: solid 5px var(--dark-color);
+   display: block;
+   position: relative;
+   top: 40%;
+   height: 50%;
+   width: 40%;
+   float: left;
+}
+
 /* end connor resume css */
 
-html, body {
-  /*background-color: #798190;*/
-  background-color: var(--neutral-color);
-  margin: 0 0;
-  padding: 0;
-  height: 100%;
-  width: 100%;
-}
+
 
 .nav-bar {
   width: 100%;
