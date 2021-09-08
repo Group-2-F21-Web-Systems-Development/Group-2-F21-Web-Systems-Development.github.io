@@ -8,7 +8,7 @@
 }
 
 html, body {
-  background-color: var(--neutral-color);
+  background-color: var(--light-color);
   margin: 0 0;
   padding: 0;
   height: 100%;
@@ -51,16 +51,23 @@ img#corner-logo {
 /* home page css */
 
 #personal-pages {
+   margin-top: 10vh;
    display: flex;
    justify-content: center;
    flex-direction: row;
    flex-flow: row;
 }
 
+#personal-pages h1 {
+   position: absolute;
+   margin: 0;
+   padding: 0;
+}
+
 #personal-pages div {
-   width: 50px;
-   height: 50px;
-   margin: 0 50px;
+   width: 30vw;
+   height: 30vw;
+   margin: 0 2vw;
    background-color: red;
 }
 
