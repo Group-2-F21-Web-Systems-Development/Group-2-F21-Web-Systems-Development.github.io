@@ -1,6 +1,5 @@
 :root {
   /* color palette */
-<<<<<<< HEAD
    --dark-color: #1a2139;
    --neutral-dark-color: #333e5b;
    --neutral-color: #798190;
@@ -10,22 +9,60 @@
 
 /* connor resume css */
 
-#basic-info {
-
+#resume {
+   background-color: var(--light-color);
+   height: 30%;
+   width: 40%;
+   display: flex;
+   flex-direction: row;
+   flex-flow: row;
+   align-items: center;
+   text-align: center;
+   position: absolute;
 }
+
+#resume div {
+   width: 50%;
+   height: 100%;
+}
+
 
 #resume img{
+   padding: 0;
    display: block;
-   width: 50%;
+   position: absolute;
+   height: 100%;
+   
+}
+
+#experience {
+   width: 60%;
    float: right;
+   display: block;
+   background-color: var(--dark-color);
 }
-=======
-  --dark-color: #1a2139;
-  --neutral-dark-color: #333e5b;
-  --neutral-color: #798190;
-  --neutral-light-color: #9d9683;
-  --light-color: #821122;
+
+#experience p {
+   padding: 0 4em;
+   margin: 0;
 }
+
+#experience h2{
+   padding: 0 4em;
+   margin: 0;
+}
+
+#experience h4{
+   padding: 0 4em;
+   margin: 0;
+}
+
+#experience h5{
+   padding: 0 4em;
+   margin: 0;
+}
+
+/* end connor resume css */
 
 html, body {
   /*background-color: #798190;*/
@@ -66,4 +103,3 @@ img#corner-logo {
   border: none;
 }
 
->>>>>>> main
