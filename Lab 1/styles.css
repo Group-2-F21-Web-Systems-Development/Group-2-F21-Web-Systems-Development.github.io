@@ -58,17 +58,15 @@ img#corner-logo {
    flex-flow: row;
 }
 
-#personal-pages h1 {
-   position: absolute;
-   margin: 0;
-   padding: 0;
+#greeting {
+   position: block;
+   text-align: center;
 }
 
 #personal-pages div {
    width: 30vw;
    height: 30vw;
    margin: 0 2vw;
-   background-color: red;
 }
 
 #personal-pages div img {
@@ -77,4 +75,5 @@ img#corner-logo {
    overflow: hidden;
    object-fit: cover;
    object-position: 0 0;
+   border-radius: 10%;
 }
