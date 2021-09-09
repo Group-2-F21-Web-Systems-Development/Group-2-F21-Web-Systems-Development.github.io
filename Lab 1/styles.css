@@ -6,7 +6,7 @@
    --neutral-dark-color: #333e5b;
    --neutral-color: #798190;
    --neutral-light-color: #9d9683;
-   /* --light-color: #821122; */
+   /* --light-color: #821122; old light color*/
    --light-color: #fe303a;
 }
 
@@ -28,7 +28,6 @@ p {
 }
 
 html, body {
-   /*background-color: #798190;*/
    background-color: var(--neutral-color);
    margin: 0 0;
    padding: 0;
@@ -243,19 +242,18 @@ nav img {
 }
 
 /* end home page css */
+
+/* Alana Barth Resume */
 #slogan {
    font-style: italic;
    font-size: 30px;
    text-align: center;
-
 }
 
-/* end home page css */
-
-/* Alana Barth Resume */
 body{
    overflow-x: hidden;
 }
+
 #h1 {
    color: var(--light-color);
    text-align: center;
@@ -304,16 +302,18 @@ h2 {
    color: white;
    font-size: 25px;
 }
+
 #intro {
    float:left;
    clear:left;
-   
    font-size: 18px;
    margin: 10px;
 }
+
 #intro p {
    color: white;
 }
+
 .Work{
    float:left;
    clear:left;
@@ -325,6 +325,7 @@ h2 {
 .Work p{
    color: white;
 }
+
 .Work li{
    float:left;
    clear:left;
@@ -332,6 +333,7 @@ h2 {
    width: 2000px;
    margin: 5px;
 }
+
 .school {
    float:left;
    clear:left;
@@ -352,6 +354,7 @@ h2 {
    margin:5px;
    font-size:18px;
 }
+
 .date p {
    color: white;
 }
@@ -364,3 +367,5 @@ h2 {
    margin:5px;
    font-size:18px;
 }
+
+/* end Alana Barth Resume */
