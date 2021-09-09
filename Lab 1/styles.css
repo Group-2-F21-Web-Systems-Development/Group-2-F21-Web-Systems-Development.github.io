@@ -1,19 +1,132 @@
+/* universal styles */
+
 :root {
   /* color palette */
-  --dark-color: #1a2139;
-  --neutral-dark-color: #333e5b;
-  --neutral-color: #798190;
-  --neutral-light-color: #9d9683;
-  --light-color: #821122;
+   --dark-color: #1a2139;
+   --neutral-dark-color: #333e5b;
+   --neutral-color: #798190;
+   --neutral-light-color: #9d9683;
+   --light-color: #821122;
+}
+
+*, *::before, *::after {
+   box-sizing: border-box;
+}
+
+a {
+   color: var(--light-color);
+   text-decoration: none;
+}
+
+h1, h2, h3, h4, h5, h6 {
+   color: var(--dark-color);
+}
+
+p {
+   color: var(--neutral-dark-color);
 }
 
 html, body {
-  background-color: var(--neutral-color);
-  margin: 0 0;
-  padding: 0;
-  height: 100%;
-  width: 100%;
+   /*background-color: #798190;*/
+   background-color: var(--neutral-color);
+   margin: 0 0;
+   padding: 0;
+   height: 100%;
+   width: 100%;
 }
+
+/* universal styles end */
+
+/* connor resume css */
+
+#resume {
+   border: solid 5px var(--dark-color);
+   border-right: none;
+   display: block;
+   border-bottom: none;
+   min-height: 50%;
+   width: 40%;
+   position: absolute;
+   text-align: center;
+}
+
+#resume div {
+   width: 50%;
+   max-height: 100%;
+}
+
+#resume img{
+   display: block;
+   position: absolute;
+   max-height: 100%;
+   max-width: 50%;
+   overflow: hidden;
+   right: 0;
+   top: 5%;
+}
+
+#experience {
+   border: solid 5px var(--dark-color);
+   width: 60%;
+   min-height: 90%;
+   float: right;
+   display: block;
+}
+
+#experience p {
+   padding: 0 4em;
+   margin: 0;
+}
+
+#experience h2{
+   padding: .5em 2em;
+   text-align: center;
+   margin: 0;
+}
+
+#experience h4{
+   padding-left: 2em;
+   margin: 0;
+}
+
+#experience h5{
+   padding-left: 3.5em;
+   margin: 0;
+}
+
+#skills {
+   border: solid 5px var(--dark-color);
+   border-right: none;
+   display: block;
+   position: relative;
+   top: 50%;
+   min-height: 40%;
+   width: 40%;
+   float: left;
+}
+
+#skills h4 {
+   text-align: center;
+}
+
+#skills ul {
+   columns: 2;
+   -webkit-columns: 2;
+   -moz-columns: 2;
+   margin-left: 20%;
+   list-style-type: circle;
+}
+
+#skills ul li p{
+   display: inline-block;
+   margin: 0;
+   padding: .2em;
+   font-size: 1.3em;
+}
+
+/* end connor resume css */
+
+
 
 .nav-bar {
   width: 100%;
