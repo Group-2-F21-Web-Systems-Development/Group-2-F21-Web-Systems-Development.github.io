@@ -216,4 +216,124 @@ h1 {
    transform: scale(1.05,1.05);
 }
 
+#slogan {
+   font-style: italic;
+   font-size: 30px;
+   text-align: center;
+
+}
+
 /* end home page css */
+
+/* Alana Barth Resume */
+body{
+   overflow-x: hidden;
+}
+#h1 {
+   color: var(--light-color);
+   text-align: center;
+   font-variant: small-caps;
+   font-size: 45px;
+   float: center;
+   clear: center;
+}
+
+h2 {
+   padding:5px 0px 5px;
+   font-size: 25px;
+}
+
+#profile{
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+   width: 300px;
+   height: 400px;
+}
+
+#contactInfo {
+   border-top: 5px solid #333e5b;
+   border-bottom: 5px solid #333e5b;
+   padding: 3px 0 3px 0;
+   margin: 0;
+   color: white;
+   text-align: center;
+   white-space: nowrap;
+   font-size: 18px;
+}
+
+#contactInfo li{
+   display: inline;
+}
+
+.subSectionHeader {
+   float: left;
+   clear: left;
+   width: 7000px;
+   margin:5px;
+}
+
+.subSectionHeader p {
+   color: white;
+   font-size: 25px;
+}
+#intro {
+   float:left;
+   clear:left;
+   
+   font-size: 18px;
+   margin: 10px;
+}
+#intro p {
+   color: white;
+}
+.Work{
+   float:left;
+   clear:left;
+   width: 500px;
+   font-size: 18px;
+   margin: 10px;
+}
+
+.Work p{
+   color: white;
+}
+.Work li{
+   float:left;
+   clear:left;
+   color: white;
+   width: 2000px;
+   margin: 5px;
+}
+.school {
+   float:left;
+   clear:left;
+   color: white;
+   width: 500px;
+   margin:5px;
+   font-size:18px;
+}
+
+.school p {
+   color: white;
+}
+
+.date {
+   float: right;
+   clear: right;
+   width: 250px;
+   margin:5px;
+   font-size:18px;
+}
+.date p {
+   color: white;
+}
+
+#Alana-skills p {
+   float:left;
+   clear:left;
+   color: white;
+   width: 1000px;
+   margin:5px;
+   font-size:18px;
+}
