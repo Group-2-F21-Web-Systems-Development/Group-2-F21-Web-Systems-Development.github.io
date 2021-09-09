@@ -126,7 +126,7 @@ html, body {
 
 /* end connor resume css */
 
-
+/* nav bar css */
 
 .nav-bar {
   width: 100%;
@@ -160,6 +160,8 @@ img#corner-logo {
   max-height: 100%;
   border: none;
 }
+
+/* end nav bar css */
 
 /* home page css */
 
@@ -199,3 +201,5 @@ h1 {
    cursor: pointer;
    transform: scale(1.05,1.05);
 }
+
+/* end home page css */
