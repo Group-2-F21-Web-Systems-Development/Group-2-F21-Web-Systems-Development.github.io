@@ -41,9 +41,10 @@ html, body {
 
 #resume {
    border: solid 5px var(--dark-color);
+   border-right: none;
    display: block;
    border-bottom: none;
-   height: 40%;
+   min-height: 50%;
    width: 40%;
    position: absolute;
    text-align: center;
@@ -51,21 +52,24 @@ html, body {
 
 #resume div {
    width: 50%;
-   height: 100%;
+   max-height: 100%;
 }
 
 #resume img{
    display: block;
    position: absolute;
-   height: 100%;
+   max-height: 100%;
+   max-width: 50%;
+   overflow: hidden;
    right: 0;
-   top: 0;
+   top: 5%;
+   
 }
 
 #experience {
    border: solid 5px var(--dark-color);
-   border-left: none;
    width: 60%;
+   min-height: 90%;
    float: right;
    display: block;
 }
@@ -76,28 +80,49 @@ html, body {
 }
 
 #experience h2{
-   padding: 0 4em;
+   padding: .5em 2em;
+   text-align: center;
    margin: 0;
 }
 
 #experience h4{
-   padding: 0 4em;
+   padding-left: 2em;
    margin: 0;
 }
 
 #experience h5{
-   padding: 0 4em;
+   padding-left: 3.5em;
    margin: 0;
 }
 
 #skills {
    border: solid 5px var(--dark-color);
+   border-right: none;
    display: block;
    position: relative;
-   top: 40%;
-   height: 50%;
+   top: 50%;
+   min-height: 40%;
    width: 40%;
    float: left;
+}
+
+#skills h4 {
+   text-align: center;
+}
+
+#skills ul {
+   columns: 2;
+   -webkit-columns: 2;
+   -moz-columns: 2;
+   margin-left: 20%;
+   list-style-type: circle;
+}
+
+#skills ul li p{
+   display: inline-block;
+   margin: 0;
+   padding: .2em;
+   font-size: 1.3em;
 }
 
 /* end connor resume css */
