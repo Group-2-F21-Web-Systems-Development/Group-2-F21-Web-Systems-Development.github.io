@@ -271,7 +271,7 @@ body{
    height: 400px;
 }
 
-#contactInfo {
+.hcard {
    border-top: 5px solid #333e5b;
    border-bottom: 5px solid #333e5b;
    padding: 3px 0 3px 0;
@@ -282,8 +282,14 @@ body{
    font-size: 18px;
 }
 
-#contactInfo li{
+.hcard p {
    display: inline;
+   color: white;
+}
+
+.adr p{
+   display: inline;
+   color: white;
 }
 
 .subSectionHeader {
