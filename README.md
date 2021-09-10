@@ -13,3 +13,8 @@ Connor Silloway
 Alana Barth
 
 I worked on my resume page, the logo, and Slogan. It took me some time doing the css because I struggled remembering what I learned in intro. I looked at https://www.w3schools.com/css/default.asp for help. I also looked at https://www.w3schools.com/howto/howto_css_image_center.asp to center my resume image. I looked at https://developer.mozilla.org/en-US/docs/Web/HTML/microformats to learn microformats.
+
+Jasmine Filawo
+In this lab, I helped make the UI design for the homepage. I wanted to make sure that all of our profile pictures were included and that each picture would take the user to each of our resume page, when one of our picures was clicked. As for my resume page, I wanted to make sure that it was in the same format as my actual resume, so I decided to apply all of the tags I learned in my Intro to ITWS class. Those tags included ul, li, p tags, etc. I used those li tags to make sure that there were bullet points just like my actual resume. I tried to avoid using too many div tags, that is why I used class to make sure I grouped certain lines of my resume, that I wanted to be in bold or italicized in my css. For my css, I made sure that my lines used #jasmine, so that my css style only applied to my resume page.  I also used these links to recall my memory on how to use hyperlinks,how to center images with css, and how to create a full background page. : 
+-https://www.w3schools.com/html/html_links.asp, https://www.javatpoint.com/-how-to-center-images-in-css#:~:text=To%20center%20an%20image%2C%20we,to%20center%20in%20the%20div.
+-https://www.w3schools.com/howto/howto_css_full_page.asp
