@@ -38,6 +38,10 @@ html, body {
    width: 100%;
 }
 
+body{
+   overflow-x: hidden;
+}
+
 .text-center {
    text-align: center;
 }
@@ -249,10 +253,6 @@ nav img {
    font-style: italic;
    font-size: 30px;
    text-align: center;
-}
-
-body{
-   overflow-x: hidden;
 }
 
 #h1 {
