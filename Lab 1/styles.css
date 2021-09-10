@@ -38,6 +38,10 @@ html, body {
    width: 100%;
 }
 
+body{
+   overflow-x: hidden;
+}
+
 .text-center {
    text-align: center;
 }
@@ -123,8 +127,6 @@ html, body {
 
 #skills ul {
    columns: 2;
-   -webkit-columns: 2;
-   -moz-columns: 2;
    margin-left: 20%;
    list-style-type: circle;
 }
@@ -253,17 +255,11 @@ nav img {
    text-align: center;
 }
 
-body{
-   overflow-x: hidden;
-}
-
 #h1 {
    color: var(--light-color);
    text-align: center;
    font-variant: small-caps;
    font-size: 45px;
-   float: center;
-   clear: center;
 }
 
 #profile{
