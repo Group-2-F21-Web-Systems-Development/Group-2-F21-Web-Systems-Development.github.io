@@ -1,5 +1,7 @@
 /* universal styles */
 
+@import url('https://fonts.googleapis.com/css2?family=Urbanist:wght@300&display=swap');
+
 :root {
   /* color palette */
    --dark-color: #1a2139;
@@ -29,6 +31,7 @@ p {
 
 html, body {
    background-color: var(--neutral-color);
+   font-family: 'Kanit', sans-serif;
    margin: 0 0;
    padding: 0;
    height: 100%;
