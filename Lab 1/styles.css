@@ -388,11 +388,8 @@ border-style: solid;
    font-size: small;
 }
 
-/*.fn{
-   border-style: solid;
-}*/
-
 #center {
+   height: 100px;
    width: 100vw;
    display: flex;
    justify-content: center;
@@ -401,8 +398,6 @@ border-style: solid;
 #center img{
    border-style: solid;
 }
-
-
 
 #jasmine p{
    text-align: center;
