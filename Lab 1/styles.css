@@ -123,8 +123,6 @@ html, body {
 
 #skills ul {
    columns: 2;
-   -webkit-columns: 2;
-   -moz-columns: 2;
    margin-left: 20%;
    list-style-type: circle;
 }
@@ -262,8 +260,6 @@ body{
    text-align: center;
    font-variant: small-caps;
    font-size: 45px;
-   float: center;
-   clear: center;
 }
 
 #profile{
