@@ -370,3 +370,104 @@ body{
 }
 
 /* end Alana Barth Resume */
+
+/*the start of Jasmine Filawo's resume*/
+#jasmine h1{
+text-align: center;
+border-style: solid;
+}
+
+#jasmine h2{
+   font-size:19px;
+   text-align: center;
+   margin-top: 2em;
+
+}
+
+#contact{
+   font-size: small;
+}
+
+/*.fn{
+   border-style: solid;
+}*/
+
+#center {
+   width: 100vw;
+   display: flex;
+   justify-content: center;
+}
+
+#center img{
+   border-style: solid;
+}
+
+
+
+#jasmine p{
+   text-align: center;
+}
+
+#jasmine a {
+   text-align: center;
+   
+}
+
+.bold {
+   font-weight: bold;
+}
+
+#jasmine #contact{
+   display: inline-block;
+   text-align: center;
+}
+
+#jasmine .contact .email{
+   display: inline-block;
+   text-align: center;
+}
+
+
+#jasmine #name{
+   font-weight: bold;
+   font-size: 18px;
+}
+
+#jasmine .resume p {
+   font-weight: bold;
+}
+
+#jasmine .work{
+   font-weight: bold;
+   font-style: italic;
+}
+
+#jasmine .assistant{
+   font-weight: bold;
+   font-style: italic;
+}
+
+#jasmine .title {
+   font-weight: bold;
+   font-style: italic;
+   text-align: center;
+}
+
+
+#jasmine .titles{
+   font-weight: bold;
+   font-style: italic;
+   text-align: center;
+
+}
+
+#jasmine .manager{
+   font-weight: bold;
+   font-style: italic;
+}
+
+#jasmine .club{
+   font-weight: bold;
+   font-style: italic;
+}
+/*end of Jasmine Filawo's resume*/
