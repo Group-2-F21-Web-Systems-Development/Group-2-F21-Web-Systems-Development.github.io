@@ -1,0 +1,38 @@
+h1 {
+   /* heading will be at the center */
+   color:black;
+   text-align: center;
+}
+
+img{
+   width: 15%;
+   height: auto;
+   float: right;
+}
+
+section {
+   padding: 6em 5em 4em;
+   border: 1px solid white;
+}
+
+section h2 {
+   text-align: center;
+}
+
+section a #ListComp {
+   display: block;
+
+}
+
+section a {
+   box-shadow: .5em .5em .4em 0 rgba(66, 60, 60, 0.6);
+   color: black;
+   background-color: rgb(190, 221, 231);
+   padding: .5em;
+   border-style: solid;
+   border-color: black;
+}
+
+section p .companies::before {
+   display: hide;
+}

@@ -1,0 +1,50 @@
+/* the entire page will have white as the font color */
+/* the border around the text will be white */
+h1 {
+    color:white;
+    text-align: center;
+    border-style: solid;
+    border-color: white;
+    /* heading will be at the center of the website with a solid border around it */
+}
+/* all of the pages on this website will have this background color */
+body{
+    background-color:#318CE7;
+    color: white;
+}
+
+#gamma p{
+    text-align: center;
+
+}
+
+#honor p{
+    text-align: center;
+}
+
+button{
+    text-align: center;
+}
+
+/* white border around the text below the header */
+.gamma p {
+    padding: 6em 5em 4em;
+    border: 1px solid white;
+  }
+
+
+  #society p{
+    padding: 6em 5em 4em;
+    border: 1px solid white;
+}
+
+.eta{
+    text-align: center;  
+}
+
+.offer{
+    text-align: center; 
+    font-size: 20px; 
+}
+/* color of the button  */
+

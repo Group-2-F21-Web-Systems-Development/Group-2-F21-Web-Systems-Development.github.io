@@ -1,0 +1,11 @@
+{
+  "header" : {
+    "nav": [{"Home": "./index.html"}, {"Events": "./events.html"}, {"Tutoring": "./tutoring.html"}],
+    "logo": "./resources/gnh-logo.png"
+  },
+
+  "footer": {
+    "contact": [{"Contact Us": "./tutoring.html"}, {"President": "mailto:smitha24@rpi.edu"}, {"Mailing List": "mailto:gammanueta@rpi.edu"}],
+    "external": [{"Facebook": "#"}, {"Twitter": "#"}, {"Tik Tok": "#"}, {"Instagram": "#"}, {"LinkedIn": "#"}]
+  }
+}
